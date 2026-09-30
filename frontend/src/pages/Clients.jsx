@@ -9,6 +9,7 @@ const Clients = () => {
   const [clients, setClients] = useState([]);
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
+  
 
   const loadClients = async (searchValue = "") => {
     try {
@@ -62,7 +63,7 @@ const Clients = () => {
       );
     }
   };
-  if(loading) return <Loading/>
+  // if (loading) return <Loading/>
   return (
     <section className="clients-page">
       <header className="page-header">
@@ -82,6 +83,7 @@ const Clients = () => {
           placeholder="Search by name, company, or email"
           value={search}
           onChange={handleSearch}
+          
         />
       </div>
 
