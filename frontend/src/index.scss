@@ -27,8 +27,8 @@ input{
   flex-direction: column;
   background: #fcfcfc;
   color: #333;
-  // box-shadow: 3px 0 12px #00000020;
-  // border: 1px solid #00f0f0;
+  box-shadow: 3px 0 12px #00000020;
+  
   &__brand {
     display: flex;
     align-items: center;
@@ -43,6 +43,7 @@ input{
       border-radius: 10px;
       background: royalblue;
       font-weight: bold;
+      color: #fff;
     }
 
     h2 {
