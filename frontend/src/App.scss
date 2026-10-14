@@ -33,7 +33,7 @@
 
 /* Login Page */
 .login {
-  background:  #171717;
+  background:  #f0ede4;
   width: 100%;
   min-height: 100dvh;
   display: grid;
@@ -52,7 +52,8 @@
       text-align: center;
       margin: 0.5rem 0;
       font-family: "limelight", sans-serif;
-      color: #444;
+      color: #004147;
+      color:#020617;
       font-size: 4rem;
     }
   .section-1 {
@@ -105,15 +106,28 @@
     button {
       width: 90%;
       margin: 0 auto;
-      padding: 0.5rem 1rem;
+      padding: .8rem 1rem;
       display: block;
-      background-color: royalblue;
-
+      background: linear-gradient(180deg, #03dd6d 3%, #008f45 93%);
+      border-radius: 0.75rem;
       border: none;
       color: #fff;
       font-weight: bold;
       font-size: 1.2rem;
-    }
+      box-shadow: inset 0 1px 0 #19e079,
+                  inset 0 -2px 0 #009447,
+                  0 1px 2px #0006,
+                  0 8px 24px -6px #19e07999;
+                  
+                  &:hover{
+                    background: linear-gradient(180deg, #008f45 93%, #03dd6d 3% );
+                    translate: 0 3px;
+                    box-shadow: inset 0 2px 14px #0004;
+                  }
+                  &:active:not(:disabled){
+                    background:#004147 !important;
+                  }
+                }   
     p {
       text-align: center;
       margin-top: 1rem;

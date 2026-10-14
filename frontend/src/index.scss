@@ -11,6 +11,8 @@ input{
     border-radius: 0.25rem;
     border: none;
     outline: 1px solid;
+    background-color: transparent !important;
+    
     &:focus{
                 background-color:#00000007;
             }
