@@ -34,6 +34,7 @@
 /* Login Page */
 .login {
   background:  #fffff1;
+  background:  #fefefe;
   width: 100%;
   min-height: 100dvh;
   display: grid;
@@ -57,7 +58,7 @@
       font-size: 4rem;
     }
   .section-1 {
-    // background-color: #33300011;
+    background-color: #e3e3e388;
     border-radius: 25px;
     padding: 1rem 2rem;
     width: 35dvw;
@@ -78,6 +79,10 @@
     h2{
         text-align: center;
         color: #333;
+        padding-top: 1rem;
+        margin: 1.4rem;
+        text-transform: uppercase;
+        font-weight: bolder;
     }
     label {
       margin-left: 5%;
